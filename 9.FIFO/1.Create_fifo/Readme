@@ -1,0 +1,8 @@
+-rw-r--r--. 1 anamika anamika   372 Dec 27 18:53 create_FIFO.c
+-rw-r--r--. 1 anamika anamika  1896 Dec 27 18:53 create_FIFO.o
+-rwxr-xr-x. 1 anamika anamika 25192 Dec 27 18:53 FIFO
+prw-r--r--. 1 anamika anamika     0 Dec 27 18:53 myFifo
+
+
+myFifo is the newly craeted Fifo 
+File type is pipe denoted by prw-r--r

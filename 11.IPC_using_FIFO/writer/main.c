@@ -1,0 +1,23 @@
+#include"declarations.h"
+#include"headers.h"
+
+int main()
+{
+int wfd;
+
+#ifdef PRINT
+	printf("%s:	Begin	\n",__func__);
+#endif
+
+init();
+(*fptr[0])(0);//=createfifo
+
+wfd=*(int*)(*fptr[1])(0);//openfile
+(*fptr[2])((void*)&wfd);//writefifo -- it's a pointer
+
+
+#ifdef PRINT
+        printf("%s:     End  \n ",__func__);
+#endif
+exit(EXIT_SUCCESS);
+}

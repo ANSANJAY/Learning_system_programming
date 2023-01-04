@@ -1,0 +1,10 @@
+Creates the fifo , if it does not exist
+If the FIFO exists , prompts that FIFO already exists.
+
+Sample Output
+
+[anamika@Ana 09.FIFO]$ ./accessMode 
+process 221015 created FIFO
+[anamika@Ana 09.FIFO]$ ./accessMode 
+FIFO: ./my_fifo already created
+

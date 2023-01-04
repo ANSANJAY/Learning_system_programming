@@ -1,0 +1,9 @@
+fifo_write
+
+creates the FIFO , try opening the FIFO using open().
+
+Block-on-open
+The writer trying to open the FIFO for writing,goes on Block-on-open becauce there is no point in opening any FIFO for writing where there is no reader.
+
+When any process tries to open FIFO for writing while other process was block-on-open for read.
+The blocked process will be unblocked and open will happen at both ends together.
