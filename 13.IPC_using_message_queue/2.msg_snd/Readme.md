@@ -30,7 +30,7 @@ RETURN VALUE
        On success, msgsnd() returns 0 and msgrcv() returns the number of bytes actually copied into the mtext array.  On failure, both functions return -1, and set errno to indicate the
        error.
 
-![output](./Expected output.png)
+![output](./output.png)
 
 Shows a msgqueue created with ID :12 (provided by developer) having size of 7, holding one message.
 
